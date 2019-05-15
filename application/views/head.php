@@ -1,3 +1,6 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>
 <head>
 <title>Christopher Wayo Ayabam Foundation|Home</title>
 <meta charset="utf-8">

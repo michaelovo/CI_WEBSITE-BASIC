@@ -8,7 +8,7 @@
 <meta name="keywords" content="Popular Pricing Table template Responsive, Login form web template,Flat Pricing tables,Flat Drop downs  Buy Now Web Templates, Flat Web Templates, Login Buy Now Responsive web template, SmartPhone Compatible web template, free web designs for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Custom Theme files -->
-<link href="web/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="<?php echo base_url("resources/web/css/style.css");?>" rel="stylesheet" type="text/css" media="all" />
 <!-- //Custom Theme files -->
 <!-- web font -->
 <link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
@@ -16,7 +16,7 @@
 <!-- //web font -->
 </head>
 <body >
-@include('header')
+<?php include('head.php');?>
 	<!--main-->
   <div class="page1" id="top" style="background-color:#D7AD73">
 	<div class="main">
@@ -140,12 +140,12 @@
 
 </div>
 
-	@include('layouts.footer')
+<?php include('footer.php');?>
 
 
 	<!-- popup.js -->
-	<script src="web/js/jquery.min.js"></script>
-	<script src="web/js/jquery.magnific-popup.js" type="text/javascript"></script>
+	<script src="<?php echo base_url("resources/web/js/jquery.min.js");?>"></script>
+	<script src="<?php echo base_url("resources/web/js/jquery.magnific-popup.js");?>" type="text/javascript"></script>
 	 <script>
 		$(document).ready(function() {
 		$('.popup-with-zoom-anim').magnificPopup({

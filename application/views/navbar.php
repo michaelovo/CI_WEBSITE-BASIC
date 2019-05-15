@@ -22,9 +22,9 @@
           </li>
           <li><a href="<?php echo site_url("Site_controller/our_campaign");?>">Our  programs</a></li>
           <li><a href="<?php echo site_url("Site_controller/how");?>">How you can help</a></li>
-          <li><a href="<?php echo site_url("Site_controller/contact");?>">Contacts</a></li>
+          <li><a href="<?php echo site_url("Site_controller/feedback");?>">Contacts</a></li>
 
-          <li><a href="#">Join us</a></li>
+          <li><a href="<?php echo site_url("Site_controller/reg_login");?>">Join us</a></li>
         </ul>
       </nav>
 
